@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Dependencies:
 -------------
 perl
-kdesudo
+sparky-remsu | kdesudo
 kde-baseapps-bin
 kde-runtime
 dolphin
