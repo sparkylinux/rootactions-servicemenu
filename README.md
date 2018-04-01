@@ -2,7 +2,7 @@ Root Actions Service Menu
 Root Actions servicemenu provides a convenient way to perform several actions 'as root', from the right-click context menu in KDE filemanagers.
 
 Files: DEBIAN/*
-Copyright (C) 2016-2017 Paweł Pijanowski
+Copyright (C) 2016-2018 Paweł Pijanowski
 License: GPL-2
 
 Files: /usr/bin/* and /usr/share/kservices5/ServicesMenu/*
@@ -24,7 +24,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Dependencies:
 -------------
 perl
-sparky-remsu | kdesudo
+menu
 kde-baseapps-bin
 kde-runtime
 dolphin

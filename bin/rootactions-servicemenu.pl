@@ -899,8 +899,8 @@ elsif ( `which kdesu` ) {
 	$SUCOMMAND = "$KDEBINPATH"."kdesu -d -c"}
 elsif ( `which xdg-su` ) {
         $SUCOMMAND = "xdg-su -c"}
-elsif ( `which remsu` ) {
-	$SUCOMMAND = "remsu"}
+elsif ( `which su-to-root -X -c` ) {
+	$SUCOMMAND = "su-to-root -X -c"}
 else { $SUCOMMAND = "`kf5-config --path libexec`kf5/kdesu -c"}
 
 $DIALOGCOMMAND = "$KDEBINPATH"."kdialog" ;
